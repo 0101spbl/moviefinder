@@ -29,7 +29,7 @@ const getFilm = async () => {
                         <img src="${film.Poster}" class="img-thumbnail" alt="Image du film">
                     </div>
                        
-                        <p class="card-text contentFilm"><b>Année: </b>${film.Year}</p>
+                        <p class="card-text contentFilm"><b>Année : </b>${film.Year}</p>
              
                         <a href="#" id="more-info-${i}" class="btn btn-warning contentFilm">Plus de détails</a>
                         </div>
